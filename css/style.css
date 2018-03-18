@@ -1,0 +1,911 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper{
+    width: 100%;
+    margin: auto;
+    }
+
+main,
+nav{
+  display: inline-block; 
+}
+
+body {
+    background-color: black;
+}
+
+hr{
+    margin: auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)););
+}
+
+img{
+        width: 100%;
+        height: auto;
+    }
+
+.head{
+    color: white;
+    text-align: center;
+    background-color: dimgrey;
+    margin: auto;
+    text-shadow: 5px 5px 5px black;
+}
+
+ nav ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+nav{
+    overflow: hidden;
+    order: 1;
+    flex: 1;
+}
+
+ ul {
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+    font-size: 2.5em;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.3);
+    margin: auto;
+    border: 0.5px solid white;
+    
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+li a:hover {
+    background-color: lightcoral;
+    color: black;
+    font-weight: bolder;
+}
+   
+    
+.back{
+    background: #3b3a30;
+    border: 1px solid white;
+}  
+
+.book1{
+    color: cornflowerblue;
+    font-size: 38px;
+    font-weight: bold;
+    background: linear-gradient(60deg, black, #3b3a30);
+}
+  
+.book2{
+    color: cornflowerblue;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top:auto;
+    background: linear-gradient(60deg, black, #3b3a30);
+}
+
+.dis{
+    color: white;
+    white-space: pre-line;
+    font-size: 30px;
+    margin:auto;
+} 
+    
+h3{
+    color: floralwhite;
+}
+
+.b1{
+    height: 240px;
+    max-width: 180px;
+    float: left;
+    border: 1px solid white;
+}
+    
+.more{
+    color: cornflowerblue;
+    font-size: 21px;
+    float: right;
+}
+
+.more:hover{
+    color: white;
+}
+
+.title{
+    color: wheat;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 10px 5px gray; 
+}
+
+.bser{
+    background: linear-gradient(600deg, black, #686256);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.in{
+    height: 30px;
+    width: 300px;
+    color: black;
+}
+
+.sub{
+    height: 50px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.print{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+}
+
+.msg{
+    font-size: 28px;
+    font-style: italic;
+    color: azure;
+}
+
+h2{
+    background: linear-gradient(-60deg, black, #3b3a30);
+    font-size: 38px;
+    color: cornflowerblue;
+    font-weight: bold;
+    margin-top: auto;
+    
+}
+
+.ser{
+    font-size: 33px;
+    white-space: inherit;
+    color: azure;
+    font-style: italic;
+}
+
+.serimg{
+    height: 180px;
+    width: 200px;
+}
+
+.comimg{
+    height: 180px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+table{
+    background-color:white;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background: #333;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+td,th{
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 13px;
+}
+
+td{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+tr:nth-of-type(odd){
+    background: #eee;
+}
+
+tr:hover{
+    background-color: gainsboro;
+}
+
+.about{
+    background-color: black;
+}
+
+.ab{
+    color: white;
+    font-size: 33px;
+    font-family: inherit;   
+}
+
+ol{
+    font-size: 29px;
+}
+
+.bimg{
+    background-image: url(../images/243901-gradient-1280x720.jpg);
+    background-repeat: round;
+}
+
+.cu{
+    color: cornflowerblue;
+    background: linear-gradient(-50deg, #221F1F, black);
+}
+
+.con{
+    color: burlywood;
+    white-space: pre;
+    font-size: 28px;
+    font-weight: 600;
+   
+}
+
+.add{
+    color: burlywood;
+    white-space: pre;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+aside { 
+    float: right; 
+    width: 20%;
+    color: white;
+    background-color: brown;
+    margin-right: 2px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+marquee{
+    text-align-last: center;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+main{
+    width: 72%;
+    margin-left: 5%;
+}
+
+home{
+    color: white;
+    margin-left: 500px;
+}
+
+.ac{
+    color: white;
+    text-align: right;
+    font-size: 2px;
+}
+
+.myac{
+    color: black;
+    text-align: right;
+    font-size: 23px;
+    background-color: bisque;
+    text-decoration: none;
+}
+
+.myac:hover{
+    color: red;
+}
+
+.h{
+    max-width: 80%;
+    height: auto;
+}
+
+.p1{
+    color: beige;
+    white-space: inherit;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.read{
+    color: cornflowerblue;
+    font-size: 36px;
+    background: linear-gradient(-60deg, black, #3b3a30);
+}
+
+.sec{
+    color: beige;
+    font-size: 28px;
+    white-space: inherit;
+}
+
+.as{
+    font-size: 24px;
+}
+
+
+
+.list{
+    color: white;
+}
+
+.pr{
+    white-space: inherit;
+    text-align: right;
+}
+
+textarea {
+    box-sizing: border-box;
+    height: 150px;
+    width: 50%;
+}
+
+/* Account page */
+
+.log{
+    height: 200px;
+    max-width: 200px;
+}
+
+.login{
+    height: 40px;
+    width: 140px;
+    font-size: 23px;
+}
+
+.lable{
+    font-size: 25px;
+}
+
+.forgot{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.services{
+    color: black;
+    font-size: 25px;
+    background-color: #ffc966;
+    white-space: pre-wrap;
+}
+
+.ana{
+    height: 40px;
+    width: 40px;
+}
+
+.lcard{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+footer{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+} 
+
+
+
+/* Responsive Table */
+@media only screen and (max-width: 760px),
+    (min-device-width:768px) and (max-device-width:1024px){
+        
+        table, thead, tbody, th, td, tr{
+            display: block;
+        }
+            
+        thead tr{
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+        tr{
+            border: 1px solid #ccc;
+        }
+        td{
+            border: none;
+            border-bottom: 1px solid #eee;
+            position: relative;
+            padding-left: 50%;
+        }
+        td:before{
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+        }
+      
+        td:nth-of-type(1):before{content: "Index";}
+        td:nth-of-type(2):before{content: "Event's Name";} 
+        td:nth-of-type(3):before{content: "Date's";}
+        td:nth-of-type(4):before{content: "Time";}
+        td:nth-of-type(5):before{content: "Location";}
+}       
+
+
+
+
+
+
+
+/* Responsive Display */
+
+@media only screen and (max-width: 1024px) {
+
+header,
+main,
+nav{
+  display: inline-block; 
+}
+    
+body { 
+     background-color: black
+    margin: 0; padding: 0; 
+    } 
+#wrapper {
+              width: auto; 
+    }
+aside { 
+    width: 22%;  
+    }
+.pr{
+        white-space: pre-line;
+    }
+    
+.first{
+    font-size: 2px;
+    margin:auto;
+    background-color: beige;
+    font-family: serif;
+    text-decoration: none;
+}
+
+main { 
+        width: 70%;
+        margin-left: 5%; 
+    } 
+    
+nav{
+    overflow: hidden;
+     margin-left: 0px;
+}
+
+ ul {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    background-color: black;
+    font-size: 1.8em;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.3);
+     margin: auto;
+     border: 0.5px solid white;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+li a:hover {
+    background-color: lightcoral;
+    color: black;
+    font-weight: bolder;
+} 
+ 
+.book1{
+    color: beige;
+    font-size: 28px;
+    background-color: darkgrey;
+    background: linear-gradient(60deg, gray, black);
+}
+  
+.book2{
+    color: beige;
+    font-size: 28px;
+    background-color: darkgrey;
+    margin-top:auto;
+    background: linear-gradient(60deg, gray, black);
+}
+
+.dis{
+    color: white;
+    white-space: pre-line;
+    font-size: 24px;
+    margin:auto;
+} 
+    
+.b1{
+    height: 210px;
+    max-width: 170px;
+    float: left;
+    border: 1px solid white;
+}
+    
+.more{
+    float: right;
+    color: cornflowerblue;
+    font-size: 18px;
+    white-space: pre;
+}    
+    
+.title{
+    color: wheat;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 0px 10px 5px gray; 
+}
+
+.bser{
+    background-color: beige;
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+
+    }
+
+.sub{
+    height: 28px;
+    width: auto;
+    background-color: beige;
+    font-weight: bolder;
+}
+
+.print{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+}
+
+.msg{
+    font-size: 23px;
+    font-style: italic;
+}
+   
+h2{
+    background-color:#221E1D; 
+    font-size: 28px;
+    color: cornflowerblue;
+    margin-top: auto;
+}
+
+.ser{
+    font-size: 22px;
+    font-family: sans-serif;
+    white-space: inherit;
+}
+
+.serimg{
+    height: 170px;
+    width: 180px;
+}
+
+.comimg{
+    height: 180px;
+    width: 200px;
+    border: 1px solid black;
+}
+    
+ol{
+    font-size: 23px;
+    font-family: monospace;
+}   
+    
+ .about{
+    background-color: black;
+}
+
+.ab{
+    color: white;
+    font-size: 23px;
+    font-family: arial;   
+    white-space: pre-line;
+}
+
+.cu{
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+.con{
+    color: bisque;
+    white-space: pre;
+    font-size: 23px;
+    font-weight: bolder;
+}
+    
+.add{
+    white-space: pre;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.cont{
+    background-image: url(../images/z.jpg);
+    background-repeat: no-repeat;
+}
+ 
+home{
+    color: white;
+    margin-left: 500px;
+}
+
+.h{
+    max-width: 80%;
+    height: auto;
+}
+
+.p1{
+    color: beige;
+    white-space: inherit;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.read{
+    color: cornflowerblue;
+    font-size: 32px;
+}
+
+.sec{
+    color: beige;
+    font-size: 24px;
+    white-space: inherit;
+}
+
+.as{
+    font-size: 18px;
+}
+
+footer{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}   
+    
+th{
+    background: #333;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td{
+    font-size: 20px;
+    font-family: sans-serif;
+}     
+    
+.acc{
+        width: 40%;
+        margin-left: 48%;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@media only screen and (max-width: 768px) {
+
+main { 
+        margin: auto;      
+        width: auto;	
+    }
+    
+aside{
+    display: none;
+    }   
+    
+hr{
+    border: 0;
+    height: 1px;
+    background: black;
+    margin-top: auto;
+}
+
+nav{
+    overflow: hidden;
+}
+
+ ul {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    background-color: black;
+    font-size: 1.6em;
+    box-shadow: 0px 0px 35px 0px rgba(255, 255, 255, 0.3);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+ 
+footer{
+    text-align: center;
+    color: white;  
+    font-size: 15px;
+} 
+    
+ .p1{
+    color: beige;
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.read{
+    color: cornflowerblue;
+    font-size: 23px;
+    background: linear-gradient(-60deg, black, #3b3a30);
+}
+
+.sec{
+    color: beige;
+    font-size: 20px;
+    white-space: inherit;
+}   
+    
+.title{
+    color: wheat;
+    font-size: 27px;
+    text-align: center;
+    text-shadow: 0px 10px 5px gray; 
+}    
+    
+.head{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    background-color: dimgrey;
+    margin: auto;
+    text-shadow: 5px 5px 5px black;
+}    
+    
+
+.book1{
+    color: cornflowerblue;
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(60deg, black, #3b3a30);
+}
+  
+.book2{
+    color: cornflowerblue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:auto;
+    background: linear-gradient(60deg, black, #3b3a30);
+}
+
+.dis{
+    color: white;
+    font-size: 20px;
+    margin:auto;
+    white-space: inherit;
+}     
+      
+.b1{
+    height: 180px;
+    max-width: 140px;
+    float: left;
+    border: 1px solid white;
+}
+
+.ac{
+    color: white;
+    text-align: right;
+    font-size: 1px;
+}    
+
+.myac{
+    color: black;
+    text-align: right;
+    font-size: 18px;
+    background-color: bisque;
+    text-decoration: none;
+}    
+ 
+    
+th{
+    background: #333;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td{
+    font-size: 18px;
+    font-family: sans-serif;
+}   
+    
+ /* Account page */
+
+.log{
+    height: 140px;
+    max-width: 140px;
+}
+
+.login{
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+}
+
+.lable{
+    font-size: 20px;
+}
+
+.forgot{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.services{
+    color: black;
+    font-size: 17px;
+    background-color: #ffc966;
+    white-space: inherit;
+}
+
+.ana{
+    height: 30px;
+    width: 30px;
+}
+
+.lcard{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+   
+.ser{
+    font-size: 18px;
+    font-family: sans-serif;
+    white-space: inherit;
+}    
+    
+.ab{
+    color: white;
+    font-size: 20px;
+    font-family: inherit;   
+}    
+ 
+    
